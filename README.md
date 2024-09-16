@@ -9,6 +9,8 @@ This software uses additional functions from the following repositories:
 •	Mean-Shift-Drift-Correction: https://github.com/frankfazekas/Mean-Shift-Drift-Correction   
 •	Peak finding and measurement: https://de.mathworks.com/matlabcentral/fileexchange/11755-peak-finding-and-measurement-2019?s_tid=srchtitle    
 •	TrackIt: https://gitlab.com/GebhardtLab/TrackIt   
+• Jump Distance Analysis: https://github.com/rmenssen/JDD_Code
+• DeepSPT: https://pubmed.ncbi.nlm.nih.gov/38352328/
 
 Further this software was inspired by
 
@@ -20,6 +22,7 @@ Further this software was inspired by
 •	Matlab 2021b or above if using the Github repository.  
 •	Matlab Runtime 2021b.  
 •	Windows 10 or above if using the compiled program.  
+•	Python files available at :10.5281/zenodo.13739340
 
 ## Installation
 For Windows:  
