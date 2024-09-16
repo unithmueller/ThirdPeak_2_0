@@ -1,0 +1,1 @@
+C:\MatlabDeepSPT\TrainedNetworks\Hatzakis3D\31bc03790a074bd68a6ec8eee8801830\CV_fold0_20224212145_UNETmodel.torch
