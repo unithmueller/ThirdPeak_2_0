@@ -11,6 +11,7 @@ This software uses additional functions from the following repositories:
 •	TrackIt: https://gitlab.com/GebhardtLab/TrackIt   
 • Jump Distance Analysis: https://github.com/rmenssen/JDD_Code
 • DeepSPT: https://pubmed.ncbi.nlm.nih.gov/38352328/
+• HDBScan: https://github.com/Jorsorokin/HDBSCAN
 
 Further this software was inspired by
 
