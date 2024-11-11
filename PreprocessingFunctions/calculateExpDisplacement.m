@@ -12,11 +12,12 @@ function expdisplacementvaluestring = calculateExpDisplacement(tracks, MeanWeigh
         end
         tmpdat = tmpdat(:,[10 19]);%MJD N
         tmpdat = tmpdat(tmpdat(:,1)~=0 | tmpdat(:,1)~=0,:);
-        if size(tmpdat,2)>1
+        if size(tmpdat,2)>1 & size(tmpdat,1)>1
             avgWghtMJD = sum(tmpdat(:,1).*tmpdat(:,2))/sum(tmpdat(:,2));
             avgMJD = mean(tmpdat(1));
         else
             warning("No tracks present");
+            return
         end
     else
         %can not filter, take all

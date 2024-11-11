@@ -80,7 +80,7 @@ function [xyout, xyzout2d, xyzout] = calculateDbyCumulativeJumpDistances(FigureP
 
        %% XYZ 2D
        if is2d
-           xyzout = xyout;
+           xyzout2d = xyout;
        else
        ax2 = nexttile(tl,2);
        Axes = ax2;
